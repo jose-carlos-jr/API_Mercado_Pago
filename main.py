@@ -14,6 +14,7 @@ def compra_certa():
 
 @app.route("/compraerrada")
 def compra_errada():
+    
     return render_template("compraerrada.html")
 
 if __name__ == "__main__":
